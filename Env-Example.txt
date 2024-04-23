@@ -1,0 +1,22 @@
+# Secret key for Django
+SECRET_KEY="Your_Security_Key"
+
+# Debug mode
+DEBUG=True
+
+# Database settings
+DB_NAME=db.sqlite3
+DB_USER=myuser
+DB_PASSWORD=mypassword
+DB_HOST=localhost
+DB_PORT=5432
+
+# Email settings for sending emails
+EMAIL_HOST=smtp.example.com
+EMAIL_PORT=587
+EMAIL_HOST_USER=user@example.com
+EMAIL_HOST_PASSWORD=securepassword
+EMAIL_USE_TLS=True
+
+# Other custom environment variables
+CUSTOM_SETTING=value
